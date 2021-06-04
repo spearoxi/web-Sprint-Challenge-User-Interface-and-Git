@@ -213,4 +213,35 @@ footer nav a {
 }
 
 
-/*CSS for ABOUT SECTION
+/*CSS for ABOUT SECTION*/
+
+.center{
+        display:flex;
+        
+}
+
+.middle1{
+    border-bottom: dotted grey .17rem;
+    margin-bottom:5%;
+    margin-top:2.5%;
+    margin-right:5%;
+    margin-left:2%;
+}
+.middle2{
+    border-bottom: dotted grey .17rem;
+    margin-bottom:5%;
+    margin-top:2.5%;
+    margin-right:2%;
+}
+.center p{
+    padding-bottom:5%;
+}
+button{
+    padding:2%;
+    padding-right:5%;
+    padding-left: 5%;
+    margin-bottom:5%;
+    background:white;
+    border: solid black .17rem; 
+    border-radius: 10px;
+}
