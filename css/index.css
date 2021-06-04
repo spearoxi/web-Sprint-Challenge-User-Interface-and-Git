@@ -79,7 +79,6 @@ header{
    margin-right:100%;
     display: flex;
     width:100%;
-    margin-bottom:2%;
     margin-top:2%;
 }
 .logo{
@@ -100,6 +99,11 @@ header{
 .navigation2{
     text-decoration: none;
     color:black;
+}
+
+.top-image{
+    margin-top:2%;
+    margin-bottom:3%;
 }
 
 .top-content {
@@ -175,3 +179,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.boxes .box.box1{
+    background:teal;
+}
+.boxes .box.box2{
+    background:gold;
+}
+.boxes .box.box3{
+    background:cadetblue;
+}
+.boxes .box.box4{
+    background:coral;
+}
+.boxes .box.box5{
+    background:crimson;
+}
+.boxes .box.box6{
+    background:forestgreen;
+}
+.boxes .box.box7{
+    background:darkorchid;
+}
+.boxes .box.box8{
+    background:hotpink;
+}
+.boxes .box.box9{
+    background:indigo;
+}
+.boxes .box.box10{
+    background:dodgerblue;
+}
+
+
+/*CSS for ABOUT SECTION
