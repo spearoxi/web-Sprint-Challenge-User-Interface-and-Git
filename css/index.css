@@ -75,6 +75,8 @@ p {
     margin: 0 auto;
 }
 
+/*CSS for HOME Page*/
+
 header{
    margin-right:100%;
     display: flex;
@@ -215,9 +217,19 @@ footer nav a {
 
 /*CSS for ABOUT SECTION*/
 
+
+.about{
+    border-bottom: dotted grey .17rem;
+    margin-bottom:1.5%;
+}
+.about p, .about h2{
+    margin-bottom:2.5%;
+    margin-right:2.5%;
+    margin-left:2.5%;
+}
+
 .center{
         display:flex;
-        
 }
 
 .middle1{
@@ -244,4 +256,12 @@ button{
     background:white;
     border: solid black .17rem; 
     border-radius: 10px;
+}
+
+.center h2{
+    margin-top:4%;
+}
+.bottom{
+    margin:2%;
+    margin-bottom:5%;
 }
