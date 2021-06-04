@@ -47,8 +47,12 @@ table {
 	border-spacing: 0;
 }
 
-* {
+*{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    border:1px solid grey;
 }
 
 html, body {
@@ -69,6 +73,39 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/*CSS for HOME Page*/
+
+header{
+   margin-right:100%;
+    display: flex;
+    width:100%;
+    margin-top:2%;
+}
+.logo{
+    margin-left:27%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5%;
+    padding-left:3%;
+    
+}
+.navigation1{
+    margin-left:30%;
+    text-decoration: none;
+    color:black;
+}
+.navigation2{
+    text-decoration: none;
+    color:black;
+}
+
+.top-image{
+    margin-top:2%;
+    margin-bottom:3%;
 }
 
 .top-content {
@@ -143,4 +180,88 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.boxes .box.box1{
+    background:teal;
+}
+.boxes .box.box2{
+    background:gold;
+}
+.boxes .box.box3{
+    background:cadetblue;
+}
+.boxes .box.box4{
+    background:coral;
+}
+.boxes .box.box5{
+    background:crimson;
+}
+.boxes .box.box6{
+    background:forestgreen;
+}
+.boxes .box.box7{
+    background:darkorchid;
+}
+.boxes .box.box8{
+    background:hotpink;
+}
+.boxes .box.box9{
+    background:indigo;
+}
+.boxes .box.box10{
+    background:dodgerblue;
+}
+
+
+/*CSS for ABOUT SECTION*/
+
+
+.about{
+    border-bottom: dotted grey .17rem;
+    margin-bottom:1.5%;
+}
+.about p, .about h2{
+    margin-bottom:2.5%;
+    margin-right:2.5%;
+    margin-left:2.5%;
+}
+
+.center{
+        display:flex;
+}
+
+.middle1{
+    border-bottom: dotted grey .17rem;
+    margin-bottom:5%;
+    margin-top:2.5%;
+    margin-right:5%;
+    margin-left:2%;
+}
+.middle2{
+    border-bottom: dotted grey .17rem;
+    margin-bottom:5%;
+    margin-top:2.5%;
+    margin-right:2%;
+}
+.center p{
+    padding-bottom:5%;
+}
+button{
+    padding:2%;
+    padding-right:5%;
+    padding-left: 5%;
+    margin-bottom:5%;
+    background:white;
+    border: solid black .17rem; 
+    border-radius: 10px;
+}
+
+.center h2{
+    margin-top:4%;
+}
+.bottom{
+    margin:2%;
+    margin-bottom:5%;
 }
